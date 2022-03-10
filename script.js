@@ -209,21 +209,6 @@ for (let value = 1; value <= 9; value++) {
 }
 
 const input = prompt('Enter a property') */
-
-/* switch(input) {
-    case 'model':
-        console.log(auto.model)
-        break
-    case 'year':
-        console.log(auto.year)
-        break
-    case 'color':
-        console.log(auto.color)
-        break
-    default: 
-        console.log('Not found')
-} */
-
 /* const value = auto[input]
 
 if (value) {
@@ -247,8 +232,8 @@ if (hasEnter) {
 }
 
 console.log(user) */
-
-/* const storGood = {
+/* 
+const storGood = {
     number: 1001,
     place: 'A101',
     weight: 25
@@ -293,7 +278,7 @@ if (index > -1) {
 /* const arr = []
 
 for (let i = 0; i < 5; i++) {
-    input = prompt('Enter')
+    let input = prompt('Enter')
     arr.push(input)
 }
 
@@ -311,3 +296,96 @@ if (index > -1) {
 }
 
 console.log(nums) */
+
+/* const nums = [2, 12, 34, 23, 21];
+const input = prompt('Enter');
+const userArr = input.split(',');
+const newArr = nums.concat(userArr);
+console.log(newArr) */
+
+/* let arr = [12,23,34,53,89];
+arr = arr.map(function (el) {
+    let newValue;
+
+    if (el % 2 ==0) {
+        newValue = el/2;
+    } else {
+        newValue = el;
+    }
+
+    return newValue;
+});
+console.log(arr); */
+
+// Функции
+
+/* function calc(num, exp) {
+    let res = 1;
+
+    for (let i = 1; i <= exp; i++) {
+        res = res * num;
+    }
+
+    return res;
+}
+
+const result = calc(2, 10);
+console.log(result) */
+
+/* const area = (a, b) => {
+    if ((a > 0) && (b > 0)) {
+        return a * b;
+     } else {
+            return null;
+        }
+    }
+const result = area(5, 4);
+console.log(result); */
+
+/* function outer() {
+    return function () {
+        console.log('+');
+    }
+}
+
+const value = outer();
+
+value(); */
+
+/* function counter(from, to) {
+    let number = from;
+
+    const id = setInterval(() => {
+        console.log(number)
+
+        if (number == to) {
+            clearInterval(id);
+        } else {
+            number++
+        }
+    }, 1000);
+}
+
+counter(4, 8); */
+
+/* const el = document.querySelector('.last');
+console.log(el);
+el.style.color = 'red'; */
+
+/* const input = prompt('Enter');
+const el = document.querySelector('.title');
+
+el.innerText = input */
+
+/* const input = prompt('Enter');
+const el = document.querySelector('.title');
+
+el.innerHTML = `<i>${input}</i>`; */
+
+/* const input = prompt('Enter');
+const messageEl = document.createElement('p');
+messageEl.innerText = input;
+
+const messageBox = document.querySelector('.messages');
+messageBox.append(messageEl); */
+
