@@ -264,6 +264,19 @@ let {name, age, role} = admin
 
 console.log(user, admin, name, age, role) */
 
+/////////////////////////////// МАССИВЫ //////////////////////////////////
+
+let arr = [1, 2, 3, 4, 5]
+
+arr.pop(); //- удалить последений элемент массива
+arr.push('5'); // - добавить элемент в конец массива. В данном случае строку
+arr.shift(); //- удалить первый элемент массива
+arr.unshift('1') // - добавить элемент в начало массива. строку
+
+for (let i = 0; i < arr.lenght; i++) {
+    console.log(arr[i])
+}
+
 /* const nums = [10, 20, 30, 40, 50]
 
 const input = +prompt('Enter')
@@ -317,7 +330,8 @@ arr = arr.map(function (el) {
 });
 console.log(arr); */
 
-// Функции
+
+///////////////////////////////////// ФУНКЦИИ /////////////////////////////
 
 /* function calc(num, exp) {
     let res = 1;

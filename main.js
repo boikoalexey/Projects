@@ -1,4 +1,4 @@
-let money, time;
+/* let money, time;
 
 // function start() {
 //     money = +prompt('Ваш бюджет на месяц?');
@@ -49,7 +49,7 @@ function chooseOptExpenses () {
     }
 }
 chooseOptExpenses();
-
+ */
 // function checkSavings() {
 //     if (appData.savings == true) {
 //         let save = +prompt('Сумма накоплений'),
@@ -61,3 +61,16 @@ chooseOptExpenses();
 // }
 
 // checkSavings()
+
+let arr = [1, 'a', 'b', 'c', 5];
+
+arr.pop(); //- удалить последений элемент массива
+arr.push('5'); // - добавить элемент в конец массива. В данном случае строку
+arr.shift(); //- удалить первый элемент массива
+arr.unshift('1'); // - добавить элемент в начало массива. строку
+
+console.log(arr);
+
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i])
+}
